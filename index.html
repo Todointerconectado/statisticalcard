@@ -2,34 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/redesSociales.css">
 </head>
-<body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+<body class="body">
+  <main class="main">
+    <section class="card">
+      <article class="cardPortada">
+        <figure class="cardImg">
+          <img class="profilePhoto" src="./images/image-victor.jpg" alt="Persona">
+        </figure>
+      </article>
 
-  803K
-  Likes
+      <article class="cardTitle">
+        <h1 class="name">Victor Crest <span class="age">26</span> </h1>
+        <p class="country">London</p>
+      </article>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <article class="cardInfo">
+        <div class="statistics">
+          <div class="quantity">80K</div>
+          <p class="units">Followers</p>
+        </div>
+
+        <div class="statistics">
+          <div class="quantity">803K</div>
+          <p class="units">Likes</p>
+        </div>
+
+        <div class="statistics">
+          <div class="quantity">1.4K</div>
+          <p class="units">Photos</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+      </p>
+      
+      <p class="attribution">
+        Coded by
+        <a href="https://todointerconectado.com">Todointerconectado | Francisco Carusso.</a>
+      </p>
+    </div>
+
+    <nav class="nav-contactos">
+      <ul class="container-contacts">
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://www.instagram.com/franciscocarusso/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/instagram.png" title="instagram" alt="instagram de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+  
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://www.linkedin.com/in/franciscocarusso/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/linkedin.png" title="linkedin" alt="linkedin de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://github.com/Todointerconectado" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/github.png" title="github" alt="github de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://twitter.com/Francar32/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/twiter.png" title="twitter" alt="twitter de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://www.youtube.com/channel/UCY8m1JDOQFr1RvnrUnOiKMQ" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/youtube.png" title="youtube" alt="youtube de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://wa.me/message/NDFDMQDDCCIBB1/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/whatsapp.png" title="whatsapp" alt="whatsapp de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+      </ul>
+    </nav>
+
+    <a class="fleche" href="#profile">
+      <img class="symbol" src="./images/iconos/flecha.png" alt="fleche top">
+    </a>
+  </footer>
 </body>
 </html>
