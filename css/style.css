@@ -25,7 +25,7 @@
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background: var(--darkCyan);
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position: right 51vw bottom 50vh, left 45vw top 45vh;
     display: grid;
