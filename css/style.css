@@ -25,11 +25,10 @@
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background: var(--darkCyan);
-    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position: right 51vw bottom 50vh, left 45vw top 45vh;
     display: grid;
-    gap: 0px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
@@ -63,7 +62,7 @@
 .cardPortada {
     width: 100%;
     height: 140px;
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url(../images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -152,10 +151,12 @@
     justify-content: center;
 }
 .attribution {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: rgb(51, 68, 138);
+    font-weight: 600;
+    letter-spacing: 2;
 }
